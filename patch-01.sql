@@ -5,10 +5,10 @@ ALTER TABLE public.version_aud
 ADD COLUMN description text;
 
 ALTER TABLE public.version
-ADD COLUMN link CHAR(255);
+ADD COLUMN link VARCHAR(255);
 
 ALTER TABLE public.version_aud
-ADD COLUMN link CHAR(255);
+ADD COLUMN link VARCHAR(255);
 
 UPDATE public.version 
 SET description = 'Initial version of NIEM.  Added Universal Core (u) and Common Core (c) namespaces and 7 new domains: Emergency Management (em), Immigration (im), Infrastructure Protection (ip), Intelligence (intel), International Trade (it), Justice (j) and Screening (scr).',

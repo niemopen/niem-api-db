@@ -1,0 +1,27 @@
+UPDATE public.version SET revised = '2006' WHERE version_number = '1.0';
+UPDATE public.version SET revised = '2007' WHERE version_number = '2.0';
+UPDATE public.version SET revised = '2009' WHERE version_number = '2.1';
+UPDATE public.version SET revised = '2013' WHERE version_number = '3.0';
+UPDATE public.version SET revised = '2015' WHERE version_number = '3.1';
+UPDATE public.version SET revised = '2016' WHERE version_number = '3.2';
+UPDATE public.version SET revised = '2017' WHERE version_number = '4.0';
+UPDATE public.version SET revised = '2018' WHERE version_number = '4.1';
+UPDATE public.version SET revised = '2019' WHERE version_number = '4.2';
+UPDATE public.version SET revised = '2020' WHERE version_number = '5.0';
+UPDATE public.version SET revised = '2021' WHERE version_number = '5.1';
+UPDATE public.version SET revised = '2022' WHERE version_number = '5.2';
+UPDATE public.version SET revised = '2025' WHERE version_number = '6.0';
+
+UPDATE public.version_aud SET revised = '2006' WHERE version_number = '1.0';
+UPDATE public.version_aud SET revised = '2007' WHERE version_number = '2.0';
+UPDATE public.version_aud SET revised = '2009' WHERE version_number = '2.1';
+UPDATE public.version_aud SET revised = '2013' WHERE version_number = '3.0';
+UPDATE public.version_aud SET revised = '2015' WHERE version_number = '3.1';
+UPDATE public.version_aud SET revised = '2016' WHERE version_number = '3.2';
+UPDATE public.version_aud SET revised = '2017' WHERE version_number = '4.0';
+UPDATE public.version_aud SET revised = '2018' WHERE version_number = '4.1';
+UPDATE public.version_aud SET revised = '2019' WHERE version_number = '4.2';
+UPDATE public.version_aud SET revised = '2020' WHERE version_number = '5.0';
+UPDATE public.version_aud SET revised = '2021' WHERE version_number = '5.1';
+UPDATE public.version_aud SET revised = '2022' WHERE version_number = '5.2';
+UPDATE public.version_aud SET revised = '2025' WHERE version_number = '6.0';
